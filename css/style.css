@@ -14,7 +14,7 @@ body{
 /* ---------------------------------------------------------------
                         Header Design  
 ------------------------------------------------------------------- */
-.header{
+.header-container{
     display: flex;
     background-color: #2D25A0;
     background-size: cover;
@@ -48,6 +48,7 @@ width: 485px;
  }
  .players{
      padding-top: 70px;
+     padding-bottom: 70px;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 30px;
@@ -75,4 +76,51 @@ width: 485px;
     font-size: 16px;
     font-weight: 400;
     width: 300px;
+}
+
+/* ----------------------------------------------------------
+                        Footer design
+   ----------------------------------------------------------- */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+}
+.socil-link{
+    /* background-color: #1e3bc8;
+    width: 32px;
+    height: 32px;
+    opacity: 10%; */
+}
+.socil-link a{
+    padding: 7px 10px;
+    border-radius: 50%;
+    opacity: 30%;
+    background-color: #969BAB;
+
+}
+.socil{
+    color: #0B0D17 ;
+}
+/* ------------------------------------------------------------
+                        Media queries
+   ------------------------------------------------------------ */
+
+/* -----------------------------------------
+                Mobile device
+   ----------------------------------------- */
+
+@media only screen and (max-width:668px){
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
 }

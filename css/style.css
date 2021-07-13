@@ -39,3 +39,40 @@ width: 485px;
     width: 556px;
     height: 438px;
 }
+/* ----------------------------------------------------------------------
+                    Main section and players style
+ ------------------------------------------------------------------------ */
+ .container{
+     display: flex;
+     justify-content: center;
+ }
+ .players{
+     padding-top: 70px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 30px;
+     grid-row-gap: 30px;
+     width: 1050px;
+
+ }
+ .player{
+    box-shadow:5px 5px 30px rgba(0, 0, 0, 0.30);
+    /* width: 330px;
+    height: 474px; */
+    padding: 20px;
+    border-radius: 5px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+.player-detail{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+}

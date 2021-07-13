@@ -130,7 +130,6 @@ footer img{
 
 @media only screen and (max-width:668px){
 
-    }
     .header-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -163,4 +162,5 @@ footer img{
         width: 280px;
         height: 90px;
     }
+    
 }

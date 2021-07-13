@@ -14,13 +14,23 @@ body{
 /* ---------------------------------------------------------------
                         Header Design  
 ------------------------------------------------------------------- */
-.header-container{
+/* .header-container{
     display: flex;
     background-color: #2D25A0;
     background-size: cover;
     align-items: center;
     padding: 100px 150px;
     justify-content: space-between;
+} */
+header{
+    background-color: #2D25A0;
+    background-size: cover;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 100px 150px;
 
 }
 h1{
@@ -119,8 +129,38 @@ footer img{
    ----------------------------------------- */
 
 @media only screen and (max-width:668px){
-    .header{
+
+    }
+    .header-container{
         display: grid;
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 0;
+    }
+    .header-title{
+        padding: 16px;
+    }
+    h1{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    .header-btn{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .header-image img{
+        width: 329px;
+        height: 259px;
+        padding: 15px;
+        padding-bottom: 50px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer img{
+        width: 280px;
+        height: 90px;
     }
 }

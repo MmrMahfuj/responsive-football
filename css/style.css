@@ -137,7 +137,7 @@ footer img{
                 Mobile device
    ----------------------------------------- */
 
-@media only screen and (max-width:668px){
+@media only screen and (max-width:688px){
 
     .header-container{
         display: grid;
@@ -171,5 +171,26 @@ footer img{
         width: 280px;
         height: 90px;
     }
+    
+}
+
+/* ---------------------------------------------
+                tablet devises
+   --------------------------------------------- */
+@media only screen and (min-width:689px) and (max-width:991px){
+    .header-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header-image img{
+        padding-top: 100px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    
     
 }

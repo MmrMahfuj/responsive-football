@@ -45,6 +45,15 @@ width: 485px;
     height: 44px;
     padding: 10px, 24px, 10px, 24px;
 }
+.header-btn:hover i{
+    transform: translate(20px);
+    transition: transform, 2s;
+
+}
+.header-btn:hover {
+    background-image: linear-gradient(to right, #2D25A0, #5DADE2);
+    cursor: pointer;
+}
 .header-image img{
     width: 556px;
     height: 438px;

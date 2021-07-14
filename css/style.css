@@ -208,6 +208,10 @@ footer img{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .vedios{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     footer img{
         width: 280px;
         height: 90px;
@@ -243,6 +247,8 @@ footer img{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    
+    .vedios{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     
 }
